@@ -3,7 +3,7 @@
 import { useLayoutEffect, useState } from "react";
 import HumeLogo from "./logos/Hume";
 import { Button } from "./ui/button";
-import { Moon, Sun } from "lucide-react";
+import { Moon, Sun, UserCircle2Icon } from "lucide-react";
 import Github from "./logos/GitHub";
 import pkg from '@/package.json';
 
@@ -33,7 +33,7 @@ export const Nav = () => {
       }
     >
       <div>
-        <HumeLogo className={"h-5 w-auto"} />
+        <img src="./logo-no-background.png" alt="" className="w-28" />
       </div>
       <div className={"ml-auto flex items-center gap-1"}>
         <Button
@@ -48,9 +48,9 @@ export const Nav = () => {
           className={"ml-auto flex items-center gap-1.5"}
         >
           <span>
-            <Github className={"size-4"} />
+          <UserCircle2Icon className={"size-5"}/>
           </span>
-          <span>Star on GitHub</span>
+          <span>Join to My Grub Chat</span>
         </Button>
         <Button
           onClick={toggleDark}

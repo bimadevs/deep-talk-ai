@@ -1,8 +1,9 @@
 {
-  "name": "hume-evi-next-js-starter",
+  "name": "Deep-Talk-AI",
   "version": "0.1.0",
+  "author": "BimaDev",
   "private": true,
-  "homepage": "https://github.com/humeai/hume-evi-next-js-starter",
+  "homepage": "https://chat.whatsapp.com/KtmCgWg4E26DcOWtt1Ao1I",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

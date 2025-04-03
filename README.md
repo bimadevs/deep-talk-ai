@@ -1,9 +1,8 @@
 <div align="center">
-  <img src="https://storage.googleapis.com/hume-public-logos/hume/hume-banner.png">
-  <h1>EVI Next.js App Router Example</h1>
+  <img src="./public/logo-no-background.png">
+  <h1>Deep Talk AI</h1>
 </div>
 
-![preview.png](preview.png)
 
 ## Overview
 
